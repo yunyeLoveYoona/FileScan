@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"   tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="当前查找文件名："
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/file_name"/>
+    <TextView
+        android:text="当前查找路径："
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_path"/>
+    <TextView
+        android:text="查找到的文件："
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/file"/>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="开始"
+    android:id="@+id/start"/>
+
+</LinearLayout>
